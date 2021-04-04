@@ -19,9 +19,9 @@ Listed below are the summary statistics for the month of December:
 
 ![ Dec_temps]( Dec_temps.png)
 
-* The mean temp for June and December are fairly close, which is a great sign indicating that business will survive the coldest month in the winter season.
+* The mean temperature for June and December are fairly close, which is a great sign indicating that business will survive the coldest month in the winter season.
 
-## Summary Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+## Summary: 
 
-In addition to this data, I would query the average daily temperature in a specific day for months of June and December to help predict 
+Overall the data supports opening the Surf ‘n Shake year-round. In addition to this data, I would query the average daily temperature in a specific day for months of June and December to help predict promotional events or sales. Another query I'd run would be which days are to be the coldest in the month of December to note which days are not worth opening the store due to the weather. 
 
