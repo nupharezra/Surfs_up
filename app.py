@@ -30,12 +30,12 @@ app = Flask(__name__)
 def welcome():
     return(
     '''
-    Welcome to Climate Analysis API!
-    Avaliable Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
+    Welcome to Climate Analysis API!<br>
+    Avaliable Routes:<br>
+    /api/v1.0/precipitation<br>
+    /api/v1.0/stations<br>
+    /api/v1.0/tobs<br>
+    /api/v1.0/temp/start/end<br>
     ''')
 
 #creating precipitation route
@@ -82,3 +82,6 @@ def stats(start=None, end=None):
         filter(Measurement.date <= end).all()
     temps = list(np.ravel(results))
     return jsonify(temps=temps)
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
